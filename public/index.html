@@ -1,0 +1,119 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Store</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="text-gray-600 font-serif">
+    <div class="grid md:grid-cols-3 " > <!----content wrapper--->
+        <div class="md:col-span-1 md:flex md:justify-end">
+            <nav class="text-right">
+                <div class="flex justify-between items-center">
+                    <h1 class="font-bold uppercase p-4 border-b border-gray-100 ">
+                        <a href="/" class="hover:text-gray-700">Accessories Cart</a>
+                    </h1>
+                    <div class="px-4 cursor-pointer md:hidden" id="icon">
+                        <img src="./icons/bx-menu.svg" alt="menu">
+                    </div>
+                </div>
+                <ul class="text-sm mt-6 hidden md:block" id="menu">
+                    <li class="text-gray-700 font-bold py-1" ><a href="#" class="px-4 flex justify-end border-r-8 border-primary"><span>Home</span><img src="./icons/bx-home.svg" alt="Home" class="ml-2 w-5"></a></li>
+                    <li class="py-1"><a href="#" class="px-4 flex justify-end border-r-8 border-white"><span>About Us</span><img src="./icons/bx-question-mark.svg"  class="ml-2 w-5" alt="?"></a></li>
+                    <li class="py-1"><a href="#" class="px-4 flex justify-end border-r-8 border-white"><span>Contact</span><img src="./icons/bx-envelope.svg"  class="ml-2 w-5" alt="mail"></a></li>
+                    
+                </ul>
+            </nav>
+        </div> <!---end nav-->
+
+        <main class="px-16 py-5 bg-gray-100 md:col-span-2">
+            <div class="flex justify-center md:justify-end">
+                <a href="#" class="btn text-primary border-primary md:border-3 hover:bg-primary hover:text-white transition ease-out duration-500 ">Log In</a>
+                <a href="#" class="btn text-primary ml-2 border-primary md:border-3 hover:bg-primary hover:text-white transition ease-out duration-500">Sign Up</a>
+            </div>
+            <header>
+                <h2 class="text-gray-700 text-4xl font-semibold">Jewelries</h2>
+                <h3 class="text-2xl font-semibold">Menu</h3>
+            </header>
+            <div>
+                <h4 class=" font-bold mt-12 pb-2 border-b border-gray-200">Latest Product</h4>
+
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                    <!--product goes here-->
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/PngItem_4811475.png" alt="necklace " class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Van Cleef Necklace</span>
+                            <span class="block text-gray-500 text-sm">By Van Cleef & Arpels</span>
+                        </div>
+                        <div class="badge">
+                            <span>A Sliver VanCleef </span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/necklace-2125146_640.jpg" alt="necklace " class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Pearl necklace</span>
+                            <span class="block text-gray-500 text-sm">By Tahitian Pearl Jewelry</span>
+                        </div>
+                        <div class="badge">
+                            <span>A gold Pearl </span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/pngimg.com - necklace_PNG11.png" alt="necklace " class="w-fit h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Cartier</span>
+                            <span class="block text-gray-500 text-sm">By Cartier</span>
+                        </div>
+                        <div class="badge">
+                            <span>A gold cartier </span>
+                        </div>
+                    </div>
+                </div>
+
+                <h4 class=" font-bold mt-12 border-b border-gray-200">Popular product</h4>
+
+                <div class="mt-8 grid lg:grid-cols-3 gap-10">
+                    <!---product goes here-->
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/kindpng_2789894.png" alt="necklace " class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Van Cleef Necklace</span>
+                            <span class="block text-gray-500 text-sm">By Van Cleef & Arpels</span>
+                        </div>
+                        <div class="badge">
+                            <span>A gold VanCleef </span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/pearls-967179_640.jpg" alt="necklace " class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Pearl necklace</span>
+                            <span class="block text-gray-500 text-sm">By Tahitian Pearl Jewelry</span>
+                        </div>
+                        <div class="badge">
+                            <span>A  Pearl </span>
+                        </div>
+                    </div>
+                    <div class="card hover:shadow-lg" >
+                        <img src="images/cartier-pendant-3.png" alt="necklace " class="w-full h-32 sm:h-48 object-cover">
+                        <div class="m-4">
+                            <span class="font-bold">Cartier</span>
+                            <span class="block text-gray-500 text-sm">By Cartier</span>
+                        </div>
+                        <div class="badge">
+                            <span>A sliver cartier </span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="flex justify-center">
+                    <div class=" btn bg-secondary-100 text-secondary-200 hover:shadow-inner transform hover:scale-125 hover:bg-opacity-50 transition ease-out duration-300 mt-4">Load more</div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
